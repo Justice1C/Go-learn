@@ -1,0 +1,301 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.divideOne{
+    background-color: white;
+    height: 100vh;
+    width: 100%;
+}
+
+.navlink{
+    display:flex;
+    justify-content: space-between;
+
+margin: 10px 20px;
+
+}
+
+.secondnav{
+    display: flex;
+    justify-content:space-around;
+}
+
+.go-sep{
+    display: flex;
+}
+
+.go{
+    color: rgb(10, 69, 118);
+    margin-left: 10px;
+}
+.reg{
+    margin-right: 10px;
+   
+    text-align: center;
+    background-color: rgb(3, 26, 70);
+    text-decoration:none;
+    border-radius: 10px;
+    padding: 5px 10px;
+    color: white
+}
+
+.login{
+    margin-left: 20px;
+   
+    text-align: center;
+    background-color: rgb(5, 50, 105);
+    text-decoration:none;
+    border-radius: 10px;
+    padding: 5px 10px ;
+    color: white
+}
+
+.mainOne {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.mainTwo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: cadetblue;
+    height: 50vh;
+    width: 100%;
+    justify-content: space-between;
+    
+}
+
+.textTwo{
+    margin-right: 50px;
+}
+
+.textTwo .textTwoH1{
+display: flex;
+justify-content: end;
+margin-bottom: 10px;
+color: rgb(5, 34, 87);
+}
+
+.myClassWrap{
+   display: flex;
+   justify-content: center;
+   margin-top: 10px;
+
+}
+
+
+.myClassWrap a {
+    padding: 5px 10px;
+text-align: center;
+background-color: rgb(15, 15, 57);
+text-decoration:none;
+border-radius: 5px;
+color: white
+}
+
+.divideTwo{
+
+    width: 100%;
+}
+
+.EachBox {
+    background-color: rgb(58, 10, 131);
+    width: 100%;
+    text-align: center;
+    margin-left: 25px;
+    padding: 3px 5px;
+    border-radius: 10px;
+    margin-bottom: 25px;
+}
+
+.line{
+    height: 2px;
+    width: 100px;
+    margin: 5px auto;
+    background-color: azure;
+    border-radius: 2px;
+}
+
+.Box{
+    display: flex;
+}
+
+.sepBox2{
+    margin-left: 15px;
+}
+
+.ThirdMain{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.divideTwo .textPart {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    color: rgb(13, 58, 173);
+}
+
+footer {
+    background-color: rgb(4, 26, 61);
+
+}
+
+.down {
+    display: flex;
+    justify-content: center;
+    padding: 40px 40px;
+    flex-direction: column;
+    margin-left: 20%;
+
+}
+
+.input {
+    width: 50%;
+    padding: 3px 3px;
+    border-radius: 10px;
+}
+
+
+.submonth{
+    margin-left: 20%;
+    color: beige;
+}
+
+
+
+.down2 {
+    display: flex;
+    
+}
+
+.down2 h3 {
+    background-color: aquamarine;
+    margin-left: 10px;
+    border-radius: 10px;
+    padding: 2px 5px;
+}
+
+.headerlast {
+    background-color: rgb(124, 182, 182);
+    padding-bottom: 40px;
+}
+
+.lastTop{
+    text-align: center;
+    padding: 20px 0;
+    color: rgb(42, 108, 161);
+}
+
+.iconCover{
+    display: flex;
+    justify-content: center;
+}
+.sepicon{
+    display: flex;
+}
+
+
+.icon1 {
+    background-color: aliceblue;
+    margin-right: 10px;
+    border-radius: 10px;
+    padding: 10px;
+}
+.icon2 {
+    background-color: aliceblue;
+    margin-left: 10px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.lastPagetext{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: rgb(25, 102, 169);
+}
+
+.name{
+    margin-left: 30px;
+}
+
+.fg{
+    margin-left: 15px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    margin: 0 20%;
+}
+
+form .fullname{
+    margin-bottom: 10px;
+    padding: 3px 3px;
+    border-radius: 5px;
+}
+
+form .email{
+    margin-bottom: 10px;
+    padding: 3px 3px;
+    border-radius: 5px;
+}
+
+form textarea{
+    padding: 3px 3px;
+    border-radius: 5px;
+
+}
+
+.sendWrap{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.send{
+    padding: 5px 0;
+    text-align: center;
+    background-color: rgb(19, 119, 155);
+    text-decoration:none;
+    border-radius: 5px;
+    padding: 5px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.finally{
+    background-color: rgb(7, 50, 85);
+    display: flex;
+    justify-content: space-around;
+    color: aliceblue;
+    padding-bottom: 20px;
+}
+
+.finasep{
+margin-top: 20px;
+}
+
+.finasep h4{
+    margin-bottom: 10px;
+    color: rgb(66, 70, 70);
+}
+
+.finEach{
+    display: flex;
+    justify-content: space-between;
+}
+
+.finEach h5{
+    margin-left: 10px;
+}
